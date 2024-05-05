@@ -9,34 +9,55 @@
 .seccion-contactos{
     border-right: 2px solid #BEC1BB;
     border-left: 2px solid #BEC1BB;
-    max-width: 400px;
 }
+.contactos{
+    margin: 0;
+    padding: auto;
+    display: inline-block;
+    text-align: center;
+}
+
 .contacto{
     border-bottom: 2px solid #BEC1BB;
+    width: 250px;
 }
 .cont-contacto{
     margin: 20px 30px;
     display: flex;
     text-align: left;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 .cont-contacto img{
     border-radius: 50%;
     width: 45px;
     margin-right: 10px;
 }
+#cont-boton{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #BEC1BB;
+}
+#nuevo-chat{
+    margin: 40px 0px;
+    width: 120px;
+    height: 40px;
+    background-color:#A491D2;
+    color: white;
+    
+}
+#nuevo-chat:hover{
+    background-color: #CDC3E6;
+}
 .cont-contacto info-contacto{
     margin: 0px 20px;
 }
 .seccion-principal{
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #E8EBE4;
     display: inline-block;
-}
-.contactos{
-    display: inline-block;
-    text-align: center;
 }
