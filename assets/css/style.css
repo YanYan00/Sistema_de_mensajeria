@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+.secciones{
+    display: flex;
+}
+.seccion-contactos{
+    border-right: 2px solid #BEC1BB;
+    border-left: 2px solid #BEC1BB;
+    max-width: 400px;
+}
+.contacto{
+    border-bottom: 2px solid #BEC1BB;
+}
+.cont-contacto{
+    margin: 20px 30px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.cont-contacto img{
+    border-radius: 50%;
+    width: 45px;
+    margin-right: 10px;
+}
+.cont-contacto info-contacto{
+    margin: 0px 20px;
+}
+.seccion-principal{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E8EBE4;
+    display: inline-block;
+}
+.contactos{
+    display: inline-block;
+    text-align: center;
+}
