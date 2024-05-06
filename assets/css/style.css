@@ -3,12 +3,40 @@
     border: 0px;
     margin: 0px;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .secciones{
     display: flex;
 }
+/*Seccion principal imagen y mensaje de bienvenida*/
 .seccion-contactos{
     border-right: 2px solid #BEC1BB;
     border-left: 2px solid #BEC1BB;
+}
+.usuario{
+    display: flex;
+    border-bottom: 2px solid #BEC1BB;
+}
+.cont-usuario{
+    margin: 20px 30px;
+    display: flex;
+    text-align: left;
+    align-items: start;
+    justify-content: start;
+}
+.func-usuario{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #828485;
+}
+.cont-usuario img{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;
 }
 .contactos{
     margin: 0;
@@ -16,7 +44,6 @@
     display: inline-block;
     text-align: center;
 }
-
 .contacto{
     border-bottom: 2px solid #BEC1BB;
     width: 250px;
@@ -50,14 +77,37 @@
 #nuevo-chat:hover{
     background-color: #CDC3E6;
 }
+#nuevo-chat:focus{
+    background-color: #BEC1BB;
+}
 .cont-contacto info-contacto{
     margin: 0px 20px;
 }
-.seccion-principal{
-    width: 100%;
+/*Seccion principal imagen y mensaje de bienvenida*/
+.seccion-principal {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: 100%;
     background-color: #E8EBE4;
-    display: inline-block;
+}
+.presentacion {
+    text-align: center;
+}
+.presentacion img{
+    width: 200px;
+}
+/* Fuentes */
+.cont-contacto h5{
+    font-size: 14px;
+}
+.cont-contacto p{
+    font-size: 12px;
+}
+.cont-usuario h5{
+    font-size: 14px;
+}
+.cont-usuario p{
+    font-size: 12px;
 }
